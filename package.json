@@ -1,0 +1,32 @@
+{
+  "name": "proclustercheck",
+  "version": "0.0.1",
+  "description": "Checks a MySQL cluster's uptime on request.",
+  "main": "lib/server.js",
+  "scripts": {
+    "start": "node lib/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:MCProHosting/proclustercheck.git"
+  },
+  "keywords": [
+    "mysql",
+    "clustercheck",
+    "node",
+    "cluster",
+    "database",
+    "db"
+  ],
+  "author": "Jamy Timmermans <me@jamy.be>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MCProHosting/proclustercheck/issues"
+  },
+  "homepage": "https://github.com/MCProHosting/proclustercheck",
+  "dependencies": {
+    "mysql": "^2.4.2",
+    "winston": "^0.7.3"
+  }
+}

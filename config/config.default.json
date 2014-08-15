@@ -1,0 +1,20 @@
+{
+    "server": {
+        "host": "0.0.0.0",
+        "port": "9300",
+        "checkIP": true,
+        "allowedIPs": []
+    },
+    "mysql": {
+        "host": "",
+        "port": "3306",
+        "database": "",
+        "user": "",
+        "password": ""
+    },
+    "log_directory": "/var/log/proclustercheck",
+    "single_query": true,
+    "available_when_donor": true,
+    "available_when_readonly": false,
+    "timeout": 2000
+}
