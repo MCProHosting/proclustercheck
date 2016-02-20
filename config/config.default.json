@@ -16,5 +16,6 @@
     "single_query": true,
     "available_when_donor": true,
     "available_when_readonly": false,
-    "timeout": 2000
+    "timeout": 2000,
+    "check_delay": 500
 }
